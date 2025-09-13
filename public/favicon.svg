@@ -1,0 +1,21 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6600;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8B33;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0074E4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0056B3;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle with subtle border -->
+  <circle cx="16" cy="16" r="15" fill="url(#bgGradient)" stroke="#0074E4" stroke-width="0.5"/>
+  
+  <!-- Stylized Letter S -->
+  <path d="M10 8 C10 6, 12 5, 14 5 C16 5, 18 6, 18 8 C18 9, 17 10, 16 10 C15 10, 14 9, 14 8 M10 8 C10 10, 12 11, 14 11 C16 11, 18 12, 18 14 C18 16, 16 17, 14 17 C12 17, 10 16, 10 14 M10 14 C10 15, 12 16, 14 16 C16 16, 18 15, 18 14 M10 14 C10 12, 12 11, 14 11 C16 11, 18 10, 18 8" 
+        fill="url(#textGradient)" 
+        stroke="none"
+        transform="translate(7, 7) scale(0.8)"/>
+</svg>
